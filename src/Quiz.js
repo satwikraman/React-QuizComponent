@@ -9,7 +9,7 @@ render(){
     return(
         <div>
         <div className="QuizQuestion">
-            {quizData.quiz_question[0].instruction_text}
+            {quizData.quiz_questions[0].instruction_text}
         </div>
         </div>
     )
